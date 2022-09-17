@@ -23,7 +23,7 @@ $ (hackzurich-env) python -m pip install -r requirements.txt
 
 ## Run API
 ```
-uvicorn main:app --reload
+uvicorn sql_app.main:app --reload
 ```
 ### Interactive API docs
 Now go to http://127.0.0.1:8000/docs
